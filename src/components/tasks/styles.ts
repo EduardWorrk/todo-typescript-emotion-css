@@ -58,7 +58,7 @@ export const styles = {
     padding: 8px;
     row-gap: 3px;
     z-index: 2;
-    width: 50px;
+    width: 95px;
     display: flex;
     flex-direction: column;
     background-color: white;

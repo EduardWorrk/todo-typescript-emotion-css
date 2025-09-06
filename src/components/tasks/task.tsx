@@ -99,7 +99,7 @@ export const Task = ({
               onEdit({ id, text, status });
             }}
           >
-            Save
+            Сохранить
           </button>
         )}
 
@@ -114,11 +114,11 @@ export const Task = ({
       {dropdown && (
         <div className={styles.drowpdown}>
           <button className={styles.drowpdownBtn} onClick={editTask}>
-            Edit
+            Редактировать
           </button>
 
           <button className={styles.drowpdownBtn} onClick={() => onDelete(id)}>
-            Delete
+            Удалить
           </button>
         </div>
       )}

@@ -34,7 +34,7 @@ export const InputAddTask = () => {
         ref={ref}
         type="text"
         className={inputStyles.input}
-        placeholder="Add a new task"
+        placeholder="Добавьте новую задачу"
       />
       <button className={inputStyles.addTaskButton} onClick={addTask}>
         +
